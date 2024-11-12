@@ -50,7 +50,7 @@ footer {
     position: fixed;
     bottom: 0;
     border: 5px solid #ff69b4; /* Rosa kant */
-    font-size: 8px; /* Justert skriftstørrelse */
+    font-size: 10px; /* Justert skriftstørrelse */
     padding: 10px; /* Litt ekstra padding */
 }
 
