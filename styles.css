@@ -14,6 +14,7 @@ header {
     padding: 20px;
     text-align: center;
     width: 100%;
+    border: 5px solid #ff69b4; /* Rosa kant */
 }
 
 h1 {
@@ -48,4 +49,12 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    border: 5px solid #ff69b4; /* Rosa kant */
+    font-size: 12px; /* Justert skriftstørrelse */
+    padding: 10px; /* Litt ekstra padding */
+}
+
+/* Adding extra space below the last section */
+.extra-space {
+    height: 100px; /* Adjust this value as needed */
 }
