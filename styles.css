@@ -47,14 +47,19 @@ footer {
     padding: 10px;
     text-align: center;
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     border: 5px solid #ff69b4; /* Rosa kant */
     font-size: 12px; /* Justert skriftstørrelse */
     padding: 10px; /* Litt ekstra padding */
 }
 
-/* Adding extra space below the last section */
-.extra-space {
-    height: 100px; /* Adjust this value as needed */
+body > *:last-child {
+    margin-bottom: 0; /* Forhindre ekstra margin på siste element */
 }
+
+/* Fjerner eventuell ekstra seksjon */
+.extra-space {
+    display: none;
+}
+
